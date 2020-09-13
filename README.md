@@ -16,19 +16,21 @@
 -[Questions](#questions)
 
 ## Instalation 
-Here is how to install the product
+Simply fork the repository and open up a terminal in the directory that the files are located in and npm install the necesary files.
+
+```sh
+$ npm install
+```
 
 ## Usage 
-Here is how to use the product
+Simply run by using node and running the app.js file
+
+```sh
+$ node app.js
+```
 
 ## License 
 MIT
 
 ## Contributions
  No contributors
-
-## Tests
- Coming Soon!
-
-## Questions
- Coming Soon!

@@ -70,7 +70,13 @@ const collectInputs = async (inputs = []) => {
             employees.push(x);
         }
     }
-    console.log(employees);
+    //console.log(render(employees));
+    fs.writeFile("output/output.html", render(employees), function(err) {
+        if (err) {
+            console.log(err)
+        }
+        console.log("complete!");
+    })
   };
   
   main();
