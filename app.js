@@ -71,7 +71,7 @@ const collectInputs = async (inputs = []) => {
         }
     }
     //console.log(render(employees));
-    fs.writeFile("output/output.html", render(employees), function(err) {
+    fs.writeFile("output.html", render(employees), function(err) {
         if (err) {
             console.log(err)
         }
