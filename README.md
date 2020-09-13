@@ -1,7 +1,6 @@
 # Team Builder
 ## Description
-
-    OOP and testing for week 10 homework
+Homework for week 10 for UCSD coding bootcamp
 ## Table of Contents
 -[Instalation](#instalation)
 
